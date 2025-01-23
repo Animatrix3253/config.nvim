@@ -18,4 +18,9 @@ local builtin = require("telescope.builtin")
 vim.keymap.set('n','<C-p>', builtin.find_files, {})
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
 
-
+local config = require("nvim-treesitter.configs")
+config.setup({
+  ensure_installed = {"cpp","gdscript","cmake"},
+  highlight = {enabled = true},
+  indent = {enabled = true}
+})
