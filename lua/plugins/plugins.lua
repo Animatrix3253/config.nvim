@@ -1,14 +1,14 @@
 return {
   
-  {
-    "folke/tokyonight.nvim",
-    lazy = false,
-    priority = 1000,
-    opts = {},
-  },
+    {
+       "ellisonleao/gruvbox.nvim", 
+       priority = 1000, 
+       config = true,
+       opts = {}
+    },
 
     {
-    'nvim-telescope/telescope.nvim', tag = '0.1.8',
+      'nvim-telescope/telescope.nvim', tag = '0.1.8',
       dependencies = { 'nvim-lua/plenary.nvim' }
     },
 

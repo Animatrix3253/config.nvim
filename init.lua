@@ -8,8 +8,9 @@ vim.g.leader = " "
 
 require("config.lazy")
 
-require("tokyonight")
-vim.cmd.colorscheme "tokyonight-night" 
+require("gruvbox")
+vim.o.background = "dark"
+vim.cmd.colorscheme "gruvbox" 
 
 vim.keymap.set("n", "<C-n>", ":Neotree filesystem reveal left<CR>")
 
