@@ -4,7 +4,7 @@
       config = function()
         local config = require("nvim-treesitter.configs")
         config.setup({
-          ensure_installed = {"cpp","gdscript","cmake"},
+          ensure_installed = {"cpp","cmake","python"},
           highlight = {enabled = true},
           indent = {enabled = true}
 })
