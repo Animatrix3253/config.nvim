@@ -5,4 +5,7 @@ vim.cmd.set("shiftwidth=4")
 vim.cmd.set("number")
 vim.cmd.set("relativenumber")
 vim.cmd.set("hidden")
+--For color scheme-- 
+vim.cmd.set("termguicolors")
+--------------------
 vim.g.leader = " "
